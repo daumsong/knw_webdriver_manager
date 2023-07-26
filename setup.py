@@ -11,7 +11,7 @@ setuptools.setup(
     description="Chromedriver_manager for knw",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/nicecoding1/",
+    url="https://github.com/daumsong/knw_webdriver_manager",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
