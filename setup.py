@@ -5,7 +5,7 @@ with open("README", "r") as fh:
 
 setuptools.setup(
     name="knw_Chromedriver_manager", # Replace with your own PyPI username(id)
-    version="0.0.1",
+    version="0.0.3",
     author="OH nam kyun",
     author_email="daumsong@gmail.com",
     description="Chromedriver_manager for knw",
