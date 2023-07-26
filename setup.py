@@ -4,8 +4,8 @@ with open("README", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="daumsong",
-    version="0.0.3",
+    name="knw_Chromedriver_manager",
+    version="0.0.1",
     author="OH nam kyun",
     author_email="daumsong@gmail.com",
     description="Chromedriver_manager for knw",
