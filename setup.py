@@ -5,7 +5,7 @@ with open("README", "r") as fh:
 
 setuptools.setup(
     name="knw_Chromedriver_manager",
-    version="0.0.1",
+    version="0.1.0",
     author="OH nam kyun",
     author_email="daumsong@gmail.com",
     description="Chromedriver_manager for knw",
