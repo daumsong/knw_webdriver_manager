@@ -6,7 +6,7 @@
 ## 크롬드라이버 매니저 사용법<br>
 
 ### \# **인스톨**<br>
-```
+```python
 pip install knw-Chromedriver-manager
 ```
 <br><br>
