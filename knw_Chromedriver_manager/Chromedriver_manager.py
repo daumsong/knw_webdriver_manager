@@ -78,7 +78,7 @@ def download(version):
         for file_name in os.listdir(chromedriver_folder):
             if file_name == 'chromedriver':
                 return os.path.join(chromedriver_folder, file_name)
-    elif os_name == 'linux':  # 리눅스
+    elif os_name == 'Linux':  # 리눅스
         chromedriver_folder = f"/home/{user}/knw_chromedriver/{version}"
         os.makedirs(chromedriver_folder, exist_ok=True)
         for file_name in os.listdir(chromedriver_folder):
@@ -165,8 +165,8 @@ def download(version):
                 target = open(os.path.join(chromedriver_folder, filename), "wb")
                 with source, target:
                     shutil.copyfileobj(source, target)
-                    if os_name == 'Darwin':
-                        os.chmod(os.path.join(chromedriver_folder, filename), 0o700) #권한부여
+                    if os_name in ['Darwin', 'Linux']:
+                        os.chmod(os.path.join(chromedriver_folder, filename), 0o755) #권한부여
                     return os.path.join(chromedriver_folder, filename)
 
 def install():
