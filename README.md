@@ -11,7 +11,7 @@ pip install knw-Chromedriver-manager
 ```
 <br><br>
 
-### \# **윈도우 사용자**<br>
+### \# **윈도우 및 리눅스 사용자**<br>
 ```python
 from knw_Chromedriver_manager import Chromedriver_manager
 
